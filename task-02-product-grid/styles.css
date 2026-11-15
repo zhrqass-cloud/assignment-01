@@ -1,0 +1,41 @@
+
+.product-grid {
+    display: grid;
+    grid-template-columns:repeat(6,1fr);
+    gap: 24px;
+
+}
+
+.product-card {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    gap: 15px;
+
+
+    border-radius: 16px;
+    padding: 20px;
+    border:  2px solid #e5e7eb;
+    background-color: white;
+    font-size:small;
+    
+    
+}
+
+
+.img-placeholder{
+    width: 200px;
+    height: 200px;
+    background-color: #dceafe;
+    border-radius: 16px
+}
+
+button {
+    color: #dceafe;
+    background-color: black;
+    border-radius: 10px;
+    padding: 12px 20px;
+    border: none;
+    width: 100%;
+
+}

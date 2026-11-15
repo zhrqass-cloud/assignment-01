@@ -1,0 +1,42 @@
+/* TODO: build .app-shell, .sidebar and .main-content with Flexbox to match the mockup */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.app-shell{
+    display: flex;
+    min-height: 100vh;
+}
+
+.sidebar{
+    width: 250px;
+    background-color: rgb(5, 4, 82);
+    color: white;
+    padding: 20px;
+    
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+a {
+    color: rgba(240, 248, 255, 0.967);
+    text-decoration: none;
+}
+
+.logo{
+    font-weight:bold;
+    font-size: 25px;
+}
+
+.main-content{
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+}

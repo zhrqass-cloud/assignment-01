@@ -1,0 +1,72 @@
+/* TODO: build .pricing-row and .pricing-card with Flexbox to match the mockup */
+
+* {box-sizing: border-box;}
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 30px;
+    background-color: #F5F5F5;
+}
+
+
+.pricing-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    flex-wrap: wrap;
+
+}
+
+.pricing-card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 25px;
+    flex: 1;
+    min-width: 220px;
+    max-width: 300px;
+    text-align: center;
+  
+}
+
+.price {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.pricing-card ul {
+    padding-left: 20px;
+    text-align: left;
+    line-height: 2;
+}
+
+button {
+    background-color: #2563eb;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 6px;
+    width: 100%;
+}
+
+
+.featured {
+    border: 2px solid #2563eb;
+    flex: 1.5;
+    background-color: #eff6ff;
+     box-shadow: 0 4px 15px rgba(37, 99, 235, 0.3);
+     max-width: 600px;
+    
+     
+}
+
+.btn{
+    background-color: #f4f3f3;
+    color: black;
+    
+  
+
+}

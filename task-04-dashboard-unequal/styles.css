@@ -1,0 +1,63 @@
+/* TODO: build .dashboard with CSS Grid and grid-template-areas to match the mockup */
+
+.dashboard{
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-rows: 200px 200px;
+    grid-template-areas:
+        "chart users sessions"
+        "chart conversion orders";
+    gap: 20px;
+}
+    
+
+
+
+
+.img-placeholder{
+    height: 300px;
+    background-color: #92b3e6;
+    border-radius: 8px;
+}
+
+.panel.chart-panel{
+    grid-area: chart;
+
+    border-radius: 10px;
+
+    padding: 20px;
+
+    border: 2px solid rgb(151, 149, 149) ;
+
+
+}
+
+
+.panel.stat-tile {
+    border: 2px solid rgb(159, 150, 150);
+    border-radius: 10px;
+    padding: 20px;
+    font-weight: bolder;
+    color: rgb(122, 120, 120);
+    
+}
+
+.stat-value{
+    color: black;
+    font-size: 35px;
+}
+
+.stat-tile:nth-child(2) {
+    grid-area: users;
+}
+stat-tile:nth-child(3) {
+    grid-area: sessions;
+}
+
+.stat-tile:nth-child(4) {
+    grid-area: conversion;
+}
+
+.stat-tile:nth-child(5) {
+    grid-area: orders;
+}
